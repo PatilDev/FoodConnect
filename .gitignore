@@ -1,0 +1,10 @@
+node_modules/
+
+.env
+*.env
+mysecret.json
+
+build/
+dist/
+
+/*.log
