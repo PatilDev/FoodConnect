@@ -1,0 +1,35 @@
+/* Navbar container */
+.top-navbar {
+  background-color: rgb(255, 141, 1); /* Header bar color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+}
+
+/* Nav links horizontal */
+.nav-horizontal {
+  display: flex;
+  gap: 30px; /* spacing between links */
+}
+
+/* Each link */
+.nav-horizontal .nav-link {
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+/* Hover effect */
+.nav-horizontal .nav-link:hover {
+  background-color: white;
+  color: orange !important;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
